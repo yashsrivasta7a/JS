@@ -43,3 +43,14 @@ console.log(Object.values(ob1));
 console.log(Object.entries(ob1));
 console.log(Object.keys(ob1));
 console.log(ob1.hasOwnProperty('Y')); // to check if some property or key is there or not 
+
+const course = {
+    courname : " js",
+    courseprice : "861"
+    , courseTeacher : " ys"
+}
+
+const { courseTeacher: namedediaNya } = course // destructure karida : lagakr nya naam dedia 
+//destructure mei data extract karte haii
+
+console.log(namedediaNya);
