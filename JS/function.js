@@ -18,3 +18,15 @@ function cartPrice(...num){ //Rest operator use kia toh bht saare elemenet dal s
 }
 
 console.log(cartPrice(200,222,424,1313));
+
+const user ={
+    username : "yash",
+    price : " 55131"
+}
+
+function output(kuchbhi) {
+    console.log(`User is ${kuchbhi.username} and the price is ${kuchbhi.price}`);
+}
+
+output(user)
+
