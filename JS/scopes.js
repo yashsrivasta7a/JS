@@ -6,3 +6,16 @@ if(true){
     
 }
 console.log("Global Scope : " , a); // this is a global scope 
+
+console.log(addone(5))
+
+function addone(num){
+    return num + 1
+}
+
+
+
+addTwo(5)
+const addTwo = function(num){
+    return num + 2
+}
