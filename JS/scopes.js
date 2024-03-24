@@ -32,7 +32,7 @@ if(true){
 }
 // console.log(username);
 
-
+// ++++++++++++ TWO WAYS OF DECLARING A FUNCTION ++++++++++++++++
 function addon(value)
 {
 return ++value;
