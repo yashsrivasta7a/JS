@@ -34,3 +34,16 @@ const emp ={}
 if(Object.keys(emp).length === 0){ // converts object into array 
 
 }
+
+let val1 , val2;
+val1=5 ?? 10 ;// phli value use krta hai pr undefined ya null aega toh second wali use krega // NULL COALESCING OPERATOR
+val2 = null ?? 10 ;
+
+console.log(val1,val2);
+
+//terinary operator
+// condition ? true : false
+
+const price = 400;
+price >= 400 ? console.log("SAHI") : console.log(" GALAT")
+

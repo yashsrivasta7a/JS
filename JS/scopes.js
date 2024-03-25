@@ -35,7 +35,7 @@ if(true){
 // ++++++++++++ TWO WAYS OF DECLARING A FUNCTION ++++++++++++++++
 function addon(value)
 {
-return ++value;
+    return ++value;
 }
 
 console.log(addon(5));
@@ -44,3 +44,4 @@ const addtwo = function(num){
     return num+2 ;
 }
 console.log( addtwo(5) );
+
