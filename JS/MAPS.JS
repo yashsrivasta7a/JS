@@ -19,3 +19,8 @@ const myOb = {
 for (const [key , value] of myOb) {
     console.log(key , value);    
 }
+
+for (const [key , value] of myOb) {
+    console.log(key , value);    
+}
+
