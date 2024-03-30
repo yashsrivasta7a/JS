@@ -11,15 +11,15 @@ for (const val of obj) {
     console.log(val);    
 }
 // 
-const greeting = "hello Hello"
-for (const greet of greeting) {
-    if(greet == " "){
-        continue;
-    }
-    else {
-        console.log(`${greet}`);
-    }
-}
+// const greeting = "hello Hello"
+// for (const greet of greeting) {
+//     if(greet == " "){
+//         continue;
+//     }
+//     else {
+//         console.log(`${greet}`);
+//     }
+// }
 
 
 
