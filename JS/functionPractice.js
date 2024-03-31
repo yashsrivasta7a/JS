@@ -9,8 +9,6 @@ function check(num){
 }
 
 check (0)
-
-
 const User ={
     username : "yash"
     

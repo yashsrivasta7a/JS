@@ -34,10 +34,10 @@ const ob2 = {
     W:"whats",
     U:"Yours"
 } 
-// const ob3 = Object.assign(ob1 , ob2) // combines object's values
-// console.log(ob3);
-// // or we can use 
-// const ob3 = {...ob1 , ...ob2}
+const ob3 = Object.assign(ob1 , ob2) // combines object's values
+console.log(ob3);
+// or we can use 
+const ob3 = {...ob1 , ...ob2}
 
 console.log(Object.values(ob1));
 console.log(Object.entries(ob1));
