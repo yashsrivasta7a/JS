@@ -38,12 +38,33 @@
 //   console.log(print);
                 // filter mei TRUE FALSE kr skte 
                 // map vs filter - map har ek value pr jata agr kch changes kroge lekin filter sb k end m krta
-  const num = [ 1,2,3,5,6,8,9,7,10]
-  const newnum = num.map ( (num) => num + 10)
-  const newnum2 = num.filter ( (num) => num + 10)
-  console.log(newnum);
-  console.log(newnum2);
+//   const num = [ 1,2,3,5,6,8,9,7,10]
+//   const newnum = num.map ( (num) => num + 10)
+//   const newnum2 = num.filter ( (num) => num + 10)
+//   console.log(newnum);
+//   console.log(newnum2);
 
   
 
-  mytotal = mynums.reduce( (acc,currentvalu) => acc+currentvalu,0)
+//   mytotal = mynums.reduce( (acc,currentvalu) => acc+currentvalu,0)
+
+
+  const shoppingCart = [
+    {
+        itemName : " js course ",
+        price : 2995
+    },
+    {
+        itemName : " HTML COURSE ",
+        price : 5312
+    },
+    {
+        itemName : " DSA ",
+        price : 8932
+    }
+  ];
+
+  const finalprice = shoppingCart.reduce((prev,curr) => prev + curr.price,0)
+  console.log(finalprice);
+  
+ 
