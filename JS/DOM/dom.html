@@ -13,16 +13,37 @@
 </head>
 
 <body class="bg">
-    <div>
+    <div class = "parent">
         <h1 id="i" class="heading">DOM Learning</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+        <li>Friday</li>
     </div>
 </body>
+<script>
+   const store = document.querySelector('.parent')
+   console.log(store.children);
+   console.log(store.children);
+      
+</script>
 </html>
 
-// textContent - saare text dikhaega chahe visible ho ya nahi
+
+
+//textContent - saare text dikhaega chahe visible ho ya nahi
 variable .style 
 .getElementById()
 .getElementByClass()
-// innerText - Visible Text
+//innerText - Visible Text
 innerHtml - supports HTML tags , meanwhile baki ke dont support HTML tags
+
+
+//Query Selector 
+document.querySelector() like h1,h2,p,heading ye sb select krne k liye 
+document.querySelector('p:first-child') // selects the first child 
+
+
+//Array.from() converts into array
+// .parentElement , .elementChild , .nextElementSibling , .childNode
