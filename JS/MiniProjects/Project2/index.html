@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>BMI CALCULATOR</h1>
+    <form>
+      <label id="BmiHeight">Height In CM</label><input type="text" />
+      <br />
+      <label id="BmiWeight">Weight In CM</label><input type="text" />
+      <br />
+      <button type="submit">Calculate</button>
+    </form>
+    <div class="results"></div>
+    <script>
+      const submit = document.querySelector("form");
+      submit.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const height = parseInt(document.querySelector("#BmiHeight").value);
+        const weight = parseInt(document.querySelector("#BmiWeight").value);
+        const results = document.querySelector(".results");
+
+        if (height === "" || height < 0 || isNaN(height)) {
+          results.innerHTML = "please give valid height";
+        }
+        else{
+         //   formula jo bhi h 
+
+        }
+      });
+    </script>
+  </body>
+</html>

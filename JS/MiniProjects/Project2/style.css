@@ -1,0 +1,12 @@
+body{
+    background-color: steelblue;
+}
+#BmiHeight{
+    padding: 1rem;
+}
+#BmiWeight{
+    padding: 10rem 1rem ;
+}
+.minicont{
+  padding: 5px;
+}
