@@ -3,7 +3,7 @@ const { log } = require("console");
 const express = require("express");
 const app = express();
 const cors = require('cors')
-
+app.use(cors());
 
 app.get("/api/jokes", (req, res) => {
   const jokes = [
@@ -13,12 +13,12 @@ app.get("/api/jokes", (req, res) => {
       content: "Joke1hahaha",
     },
     {
-      no: 2,
+      id: 2,
       title: "Joke2",
       content: "Joke2hahaha",
     },
     {
-      no: 3,
+      id: 3,
       title: "Joke3",
       content: "Joke3hahaha",
     },
